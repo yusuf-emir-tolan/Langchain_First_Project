@@ -1,0 +1,15 @@
+# LangChain & İşleyiciler (0.3 Ekosistemi)
+langchain>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-core>=0.3.0,<0.4.0
+langchain-text-splitters>=0.3.0,<0.4.0
+
+# Sağlayıcı Entegrasyonları (0.3 ile Uyumlu Sürümler)
+langchain-openai>=0.2.0,<0.3.0
+langchain-groq>=0.2.0,<0.3.0
+
+# API, Canlı Akış & Dağıtım Katmanı
+fastapi==0.111.1
+langserve>=0.3.0,<0.4.0
+sse_starlette==2.1.2
+python-dotenv>=1.0.1,<2.0.0
